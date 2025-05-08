@@ -1,5 +1,5 @@
 ﻿{
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Montelukast",
@@ -122,74 +122,77 @@
             {
                 "Project": "Montelukast",
                 "Simulation": "Cheng 1996 18mg IV",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Cheng 1996 3mg IV",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Cheng 1996 9mg IV",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Cheng 1996 9mg IV female",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Knorr 2000 10mg PO Chewable tablet",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Knorr 2000 2mg PO Chewable tablet",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Knorr 2000 5mg PO Chewable tablet",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Cheng 1996 10mg PO male",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Knorr 2000 10mg PO Filmcoated tablet",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Zhao 1997 PO young MD",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Fey 2014 4mg PO Sandoz oral granules",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             },
             {
                 "Project": "Montelukast",
                 "Simulation": "Fey 2014 4mg PO Singular oral mini granules",
-                "SectionId": 42
+                "SectionReference": "ct-profiles"
             }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma.",
-                "SectionId": 41,
+                "Title": "Goodness of fit plot for concentration in plasma.",
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
                     "Measure"
                 ],
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
                 "Groups": [
                     {
                         "Caption": "Montelukast iv",
@@ -318,92 +321,92 @@
             "Project": "Montelukast",
             "Name": "Montelukast",
             "Type": "Compound",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Filmcoated tablet",
             "Project": "Montelukast",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Chewable tablet",
             "Project": "Montelukast",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Sandoz Oral granules",
             "Project": "Montelukast",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         },
         {
             "Name": "Singulair mini Oral granules",
             "Project": "Montelukast",
             "Type": "Formulation",
-            "SectionId": 40
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
+                    "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
-                    "Title": "2.1 Modeling strategy"
+                    "Title": "Modeling strategy"
                 },
                 {
-                    "Id": 22,
+                    "Reference": "data-used",
                     "Content": "Content/Section2.2_Data_used.md",
-                    "Title": "2.2 Data used"
+                    "Title": "Data used"
                 },
                 {
-                    "Id": 23,
+                    "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
-                    "Title": "2.3 Model parameters and assumptions"
+                    "Title": "Model parameters and assumptions"
                 }
             ]
         },
         {
-            "Id": 3,
+            "Reference": "results-and-discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
-            "Title": "3 Results and Discussion",
+            "Title": "Results and Discussion",
             "Sections": [
                 {
-                    "Id": 40,
+                    "Reference": "final-input-parameters",
                     "Content": "Content/Input_table.md",
-                    "Title": "3.1 Montelukast final input parameters"
+                    "Title": "Montelukast final input parameters"
                 },
                 {
-                    "Id": 41,
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "3.2 Montelukast Diagnostics Plots"
+                    "Title": "Montelukast Diagnostics Plots"
                 },
                 {
-                    "Id": 42,
+                    "Reference": "ct-profiles",
                     "Content": "Content/Concentration_time_profiles.md",
-                    "Title": "3.3 Montelukast Concentration-Time profiles"
+                    "Title": "Montelukast Concentration-Time profiles"
                 }
             ]
         },
         {
-            "Id": 4,
+            "Reference": "conclusion",
             "Content": "Content/Section4_Conclusion.md",
-            "Title": "4 Conclusion"
+            "Title": "Conclusion"
         },
         {
-            "Id": 5,
+            "Reference": "main-references",
             "Content": "Content/References.md",
-            "Title": "5 References"
+            "Title": "References"
         }
     ],
     "Intro": [

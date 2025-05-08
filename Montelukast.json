@@ -1,5 +1,306 @@
 {
-  "Version": 78,
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A5",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP3A5|Reference concentration",
+          "Value": 0.04,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.0041810344828
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1681034483
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1620689655
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A5"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C8",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2C8|Reference concentration",
+          "Value": 2.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C8|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C8|t1/2 (liver)",
+          "Value": 23.000001425,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.00041051218109
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0138116248
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0012660656052
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.00092269326683
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
+          "Value": 0.0031843468252
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C8"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "Healthy",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 3.84,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 104.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362E-05
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      }
+    }
+  ],
   "Individuals": [
     {
       "Name": "Zhao 1997",
@@ -26,292 +327,11 @@
           "Description": "Zhao 1997"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP2C8|Reference concentration",
-          "Value": 2.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (liver)",
-          "Value": 23.000001425,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00041051218109
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0138116248
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0012660656052
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00092269326683
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP3A5|Human|Healthy",
+        "CYP2C8|Human|Healthy",
+        "CYP2C9|Human|Healthy"
       ]
     },
     {
@@ -339,292 +359,11 @@
           "Description": "Cheng 1996"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP2C8|Reference concentration",
-          "Value": 2.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (liver)",
-          "Value": 23.000001425,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00041051218109
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0138116248
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0012660656052
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00092269326683
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP3A5|Human|Healthy",
+        "CYP2C8|Human|Healthy",
+        "CYP2C9|Human|Healthy"
       ]
     },
     {
@@ -652,292 +391,11 @@
           "Description": "Cheng 1996"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP2C8|Reference concentration",
-          "Value": 2.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (liver)",
-          "Value": 23.000001425,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00041051218109
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0138116248
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0012660656052
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00092269326683
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP3A5|Human|Healthy",
+        "CYP2C8|Human|Healthy",
+        "CYP2C9|Human|Healthy"
       ]
     },
     {
@@ -969,292 +427,11 @@
           "Description": "Knorr 1999"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP2C8|Reference concentration",
-          "Value": 2.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (liver)",
-          "Value": 23.000001425,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00041051218109
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0138116248
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0012660656052
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00092269326683
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP3A5|Human|Healthy",
+        "CYP2C8|Human|Healthy",
+        "CYP2C9|Human|Healthy"
       ]
     },
     {
@@ -1286,292 +463,11 @@
           "Description": "Fey 2014"
         }
       },
-      "Parameters": [
-        {
-          "Path": "CYP2C8|Reference concentration",
-          "Value": 2.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C8|t1/2 (liver)",
-          "Value": 23.000001425,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|Reference concentration",
-          "Value": 3.84,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2C9|t1/2 (liver)",
-          "Value": 104.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "CYP3A5|Reference concentration",
-          "Value": 0.04,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A5|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00041051218109
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.00039687350455
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.0041810344828
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0138116248
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0012660656052
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0018822778753
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1681034483
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C8|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.00092269326683
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.0002131121391
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.1620689655
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C8|Relative expression",
-          "Value": 0.0031843468252
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
-          "Value": 0.1199553358
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
-          "Value": 0.5379310345
-        }
-      ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "CYP2C8",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C8"
-          }
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Healthy",
+        "CYP3A5|Human|Healthy",
+        "CYP2C8|Human|Healthy",
+        "CYP2C9|Human|Healthy"
       ]
     }
   ],
@@ -2151,48 +1047,55 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Zhao 1997 PO MD 10mg|Filmcoated tablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Zhao 1997 PO young MD|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Zhao 1997 - MD 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Zhao 1997",
       "Compounds": [
@@ -2308,6 +1211,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nZhao 1997 PO young MD\n2019-03-20 13:16"
         },
         {
@@ -2371,6 +1280,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nZhao 1997 PO young MD\n2019-03-20 13:16"
         }
       ]
@@ -2411,7 +1326,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Cheng 1996 IV 18mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Cheng 1996 IV 18mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -2426,6 +1341,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
         "Organism|VenousBlood|Plasma|Montelukast|Concentration in container"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 18mg IV|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 18mg IV male - Montelukast - iv - 18 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult male)",
       "Compounds": [
@@ -2531,6 +1453,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 18mg IV\n2019-03-21 13:37"
         },
         {
@@ -2594,6 +1522,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 18mg IV\n2019-03-21 13:37"
         }
       ]
@@ -2634,7 +1568,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Cheng 1996 IV 9mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Cheng 1996 IV 9mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -2650,6 +1584,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 9mg IV|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 9mg IV male - Montelukast - iv - 9 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult male)",
       "Compounds": [
@@ -2755,6 +1696,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 9mg IV\n2019-03-21 13:38"
         },
         {
@@ -2818,6 +1765,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 9mg IV\n2019-03-21 13:38"
         }
       ]
@@ -2858,7 +1811,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Cheng 1996 IV 9mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Cheng 1996 IV 9mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -2874,6 +1827,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 9mg IV female|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 9mg IV Female - Montelukast - iv - 9 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult female)",
       "Compounds": [
@@ -2979,6 +1939,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 9mg IV female\n2019-03-21 13:38"
         },
         {
@@ -3042,6 +2008,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 9mg IV female\n2019-03-21 13:38"
         }
       ]
@@ -3082,7 +2054,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Cheng 1996 IV 3mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|Cheng 1996 IV 3mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 15.0,
           "Unit": "min"
         },
@@ -3098,6 +2070,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 3mg IV|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 3mg IV male - Montelukast - IV - 3 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult male)",
       "Compounds": [
@@ -3203,6 +2182,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 3mg IV\n2019-03-21 13:38"
         },
         {
@@ -3266,6 +2251,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 3mg IV\n2019-03-21 13:38"
         }
       ]
@@ -3306,13 +2297,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 10mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 10mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Knorr 2000 10mg PO Chewable tablet|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Knorr 2000 - 10mg PO CT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)"
+        }
       ],
       "Individual": "Knorr 1999",
       "Compounds": [
@@ -3424,6 +2422,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 10mg PO Chewable tablet\n2019-03-21 13:38"
         },
         {
@@ -3487,6 +2491,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 10mg PO Chewable tablet\n2019-03-21 13:38"
         }
       ]
@@ -3527,13 +2537,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Knorr 2000 10mg PO Filmcoated tablet|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Knorr 2000 - 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)"
+        }
       ],
       "Individual": "Knorr 1999",
       "Compounds": [
@@ -3645,6 +2662,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 10mg PO Filmcoated tablet\n2019-03-20 13:16"
         },
         {
@@ -3708,6 +2731,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 10mg PO Filmcoated tablet\n2019-03-20 13:16"
         }
       ]
@@ -3748,13 +2777,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 5mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 5mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Knorr 2000 5mg PO Chewable tablet|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Knorr 2000 - 5mg PO CT - Montelukast - PO - 5 mg - Plasma - agg. (n=16)"
+        }
       ],
       "Individual": "Knorr 1999",
       "Compounds": [
@@ -3866,6 +2902,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 5mg PO Chewable tablet\n2019-03-20 13:15"
         },
         {
@@ -3929,6 +2971,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 5mg PO Chewable tablet\n2019-03-20 13:15"
         }
       ]
@@ -3969,13 +3017,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 2mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 2mg|Chewable tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Knorr 2000 2mg PO Chewable tablet|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Knorr 2000 - 2mg PO CT - Montelukast - PO - 2 mg - Plasma - agg. (n=16)"
+        }
       ],
       "Individual": "Knorr 1999",
       "Compounds": [
@@ -4087,6 +3142,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 2mg PO Chewable tablet\n2019-03-20 13:15"
         },
         {
@@ -4150,6 +3211,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nKnorr 2000 2mg PO Chewable tablet\n2019-03-20 13:15"
         }
       ]
@@ -4190,13 +3257,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 10mg PO female|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 10mg PO Female - Montelukast - po - 10 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult female)",
       "Compounds": [
@@ -4308,6 +3382,12 @@
               "WatermarkSize": 12
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 10mg PO female\n2019-03-20 13:15"
         },
         {
@@ -4371,6 +3451,12 @@
               "WatermarkSize": 12
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 10mg PO female\n2019-03-20 13:15"
         }
       ]
@@ -4411,13 +3497,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|PO 10mg|Filmcoated tablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Cheng 1996 10mg PO male|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Cheng 1996 - 10mg PO male - Montelukast - po - 10 mg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Cheng 1996 (healthy adult male)",
       "Compounds": [
@@ -4529,6 +3622,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 10mg PO male\n2019-03-20 13:16"
         },
         {
@@ -4592,6 +3691,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nCheng 1996 10mg PO male\n2019-03-20 13:16"
         }
       ]
@@ -4632,13 +3737,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|4 mg po|Singulair mini Oral granules|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|4 mg po|Singulair mini Oral granules|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Fey 2014 4mg PO Singular oral mini granules|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Fey 2014 - 4mg PO granules (Singular) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)"
+        }
       ],
       "Individual": "Fey 2014",
       "Compounds": [
@@ -4750,6 +3862,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nFey 2014 4mg PO Singular oral mini granules\n2019-03-19 14:28"
         },
         {
@@ -4813,6 +3931,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nFey 2014 4mg PO Singular oral mini granules\n2019-03-19 14:28"
         }
       ]
@@ -4853,13 +3977,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|4 mg po|Sandoz Oral granules|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|4 mg po|Sandoz Oral granules|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Fey 2014 4mg PO Sandoz oral granules|Organism|PeripheralVenousBlood|Montelukast|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Fey 2014 - 4mg PO granules (Sandoz) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)"
+        }
       ],
       "Individual": "Fey 2014",
       "Compounds": [
@@ -4971,6 +4102,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nFey 2014 4mg PO Sandoz oral granules\n2019-03-20 13:17"
         },
         {
@@ -5034,6 +4171,12 @@
               "WatermarkSize": 32
             }
           },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Montelukast\nFey 2014 4mg PO Sandoz oral granules\n2019-03-20 13:17"
         }
       ]
@@ -5045,75 +4188,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5288.0
+          "Value": 5288.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Knorr 2000"
+          "Value": "Knorr 2000",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "2mg PO CT"
+          "Value": "2mg PO CT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "2 mg"
+          "Value": "2 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Chewable tablet"
+          "Value": "Chewable tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5123,13 +4284,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Knorr 2000 - 2mg PO CT - Montelukast - PO - 2 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -5148,13 +4307,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Knorr 2000 - 2mg PO CT - Montelukast - PO - 2 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2,
             "LLOQ": 3E-09
           },
@@ -5176,14 +4333,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Knorr 2000 - 2mg PO CT - Montelukast - PO - 2 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -5205,75 +4360,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5289.0
+          "Value": 5289.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Knorr 2000"
+          "Value": "Knorr 2000",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "5mg PO CT"
+          "Value": "5mg PO CT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "5 mg"
+          "Value": "5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Chewable tablet"
+          "Value": "Chewable tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5283,13 +4456,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Knorr 2000 - 5mg PO CT - Montelukast - PO - 5 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -5309,13 +4480,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Knorr 2000 - 5mg PO CT - Montelukast - PO - 5 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2,
             "LLOQ": 3E-09
           },
@@ -5338,14 +4507,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Knorr 2000 - 5mg PO CT - Montelukast - PO - 5 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -5368,75 +4535,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5290.0
+          "Value": 5290.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Knorr 2000"
+          "Value": "Knorr 2000",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "10mg PO CT"
+          "Value": "10mg PO CT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Chewable tablet"
+          "Value": "Chewable tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5446,13 +4631,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Knorr 2000 - 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -5472,13 +4655,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Knorr 2000 - 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2,
             "LLOQ": 3E-09
           },
@@ -5501,14 +4682,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Knorr 2000 - 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -5531,75 +4710,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5291.0
+          "Value": 5291.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Knorr 2000"
+          "Value": "Knorr 2000",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/10984399",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "10mg FCT"
+          "Value": "10mg FCT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 16.0
+          "Value": 16.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Filmcoated tablet"
+          "Value": "Filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5609,13 +4806,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Knorr 2000 - 10mg PO CT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -5635,13 +4830,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Knorr 2000 - 10mg PO CT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2,
             "LLOQ": 3E-09
           },
@@ -5664,14 +4857,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Knorr 2000 - 10mg PO CT - Montelukast - PO - 10 mg - Plasma - agg. (n=16)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -5694,75 +4885,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5292.0
+          "Value": 5292.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Zhao 1997"
+          "Value": "Zhao 1997",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9429741"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9429741",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.1 & Fig.2"
+          "Value": "Fig.1 & Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "MD 10mg FCT"
+          "Value": "MD 10mg FCT",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "0(S-0,T-24,R-8)"
+          "Value": "0(S-0,T-24,R-8)",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "Filmcoated tablet"
+          "Value": "Filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5772,13 +4981,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Zhao 1997 - MD 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -5812,13 +5019,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Zhao 1997 - MD 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -5854,14 +5059,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Zhao 1997 - MD 10mg FCT - Montelukast - PO - 10 mg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -5898,88 +5101,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5293.0
+          "Value": 5293.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Fey 2014"
+          "Value": "Fey 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/25250173"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/25250173",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2 table 2"
+          "Value": "Fig.2 table 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "4mg PO granules (Sandoz)"
+          "Value": "4mg PO granules (Sandoz)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 42.0
+          "Value": 42.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Singular mini oral granules"
+          "Value": "Singular mini oral granules",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Fey 2014 - 4mg PO granules (Sandoz) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6015,14 +5234,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Fey 2014 - 4mg PO granules (Sandoz) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -6059,88 +5276,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5294.0
+          "Value": 5294.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Fey 2014"
+          "Value": "Fey 2014",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/25250173"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/25250173",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2 table 2"
+          "Value": "Fig.2 table 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "4mg PO granules (Singular)"
+          "Value": "4mg PO granules (Singular)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 42.0
+          "Value": 42.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration []",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Sandoz  oral granules"
+          "Value": "Sandoz  oral granules",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Fey 2014 - 4mg PO granules (Singular) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6176,14 +5409,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Fey 2014 - 4mg PO granules (Singular) - Montelukast - PO - 4 mg - Plasma - agg. (n=42)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.25,
@@ -6220,75 +5451,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5411.0
+          "Value": 5411.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2"
+          "Value": "Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "3mg IV male"
+          "Value": "3mg IV male",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "3 mg"
+          "Value": "3 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Montelukast sodium"
+          "Value": "Montelukast sodium",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6298,13 +5547,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Cheng 1996 - 3mg IV male - Montelukast - IV - 3 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -6328,13 +5575,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 3mg IV male - Montelukast - IV - 3 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6360,14 +5605,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 3mg IV male - Montelukast - IV - 3 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.17,
@@ -6394,75 +5637,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5412.0
+          "Value": 5412.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2"
+          "Value": "Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "9mg IV male"
+          "Value": "9mg IV male",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "9 mg"
+          "Value": "9 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Montelukast sodium"
+          "Value": "Montelukast sodium",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6472,13 +5733,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Cheng 1996 - 9mg IV male - Montelukast - iv - 9 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -6502,13 +5761,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 9mg IV male - Montelukast - iv - 9 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6534,14 +5791,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 9mg IV male - Montelukast - iv - 9 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.17,
@@ -6568,75 +5823,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5413.0
+          "Value": 5413.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.2"
+          "Value": "Fig.2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "18mg IV male"
+          "Value": "18mg IV male",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "18 mg"
+          "Value": "18 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Montelukast sodium"
+          "Value": "Montelukast sodium",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6646,13 +5919,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Cheng 1996 - 18mg IV male - Montelukast - iv - 18 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 586.2
               },
               "Values": [
@@ -6676,13 +5947,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 18mg IV male - Montelukast - iv - 18 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6708,14 +5977,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 18mg IV male - Montelukast - iv - 18 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.17,
@@ -6742,88 +6009,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5414.0
+          "Value": 5414.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "9mg IV Female"
+          "Value": "9mg IV Female",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "iv"
+          "Value": "iv",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "3 mg"
+          "Value": "3 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Montelukast sodium"
+          "Value": "Montelukast sodium",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 9mg IV Female - Montelukast - iv - 9 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6849,14 +6132,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 9mg IV Female - Montelukast - iv - 9 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.17,
@@ -6883,88 +6164,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5415.0
+          "Value": 5415.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "10mg PO Female"
+          "Value": "10mg PO Female",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Filmcoated tablet"
+          "Value": "Filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 10mg PO Female - Montelukast - po - 10 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -6986,14 +6283,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 10mg PO Female - Montelukast - po - 10 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
@@ -7016,88 +6311,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 5416.0
+          "Value": 5416.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Cheng 1996"
+          "Value": "Cheng 1996",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8692739",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig.3"
+          "Value": "Fig.3",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "10mg PO male"
+          "Value": "10mg PO male",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Montelukast"
+          "Value": "Montelukast",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "po"
+          "Value": "po",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "10 mg"
+          "Value": "10 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Filmcoated tablet"
+          "Value": "Filmcoated tablet",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Cheng 1996 - 10mg PO male - Montelukast - po - 10 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Montelukast|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 586.2
           },
           "Values": [
@@ -7119,14 +6430,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Cheng 1996 - 10mg PO male - Montelukast - po - 10 mg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.5,
